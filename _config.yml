@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: BananAda Website
-description: BananAda Team Website for the ADA Project.
+title: 2016 USA Election vs. Reddit
+description: How did the 2016 USA presidential election affect interaction patterns between different communities?
 baseurl: "/bananada-website" # the subpath of your site, e.g. /blog
 url: "https://jonathandutoit.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_repo: bananada-website # the GitHub repo name for your project
@@ -31,3 +31,9 @@ theme_color: red
 
 # Build settings
 markdown: kramdown
+
+remote_theme: broccolini/swiss
+
+collections:
+  sections:
+    output: false

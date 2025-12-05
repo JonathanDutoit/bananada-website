@@ -37,9 +37,26 @@
 .border-top-thin { border-top: 1px solid; border-color: currentColor; }
 .border-0 { border: 0; }
 
+.header-background { background-color: $color-background;}
 
 /* Theme color utilities */
-.header-background { background-color: $color-background; }
+.banner { 
+    background-image: url(../assets/images/banner.png); 
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;
+
+    min-height: 300px;
+    max-height: 773px;
+}
+
+/* ---------- MOBILE STYLES ---------- */
+@media (max-width: 768px) {
+  .banner {
+    background-image: none;
+    background-color: $color-background;
+  }
+}
 .header-border { border-color: $color-foreground; }
 .header-title { color: $color-title; }
 .header-text { color: $color-foreground; }
