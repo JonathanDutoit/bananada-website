@@ -33,7 +33,7 @@
 /* Border utilities */
 .border-bottom-thick { border-bottom: 2px solid; border-color: currentColor; }
 .border-bottom-thin { border-bottom: 1px solid; border-color: currentColor; }
-.border-top-thick { border-top: 2px solid; border-color: currentColor; }
+.border-top-thick { border-top: 16px solid; border-color: currentColor; }
 .border-top-thin { border-top: 1px solid; border-color: currentColor; }
 .border-0 { border: 0; }
 
@@ -54,15 +54,15 @@
 @media (max-width: 768px) {
   .banner {
     background-image: none;
-    background-color: $color-background;
+    background-color: $red;
   }
 }
-.header-border { border-color: $color-foreground; }
+.header-border { border-color: $color-dot-accent; }
 .header-title { color: $color-title; }
 .header-text { color: $color-foreground; }
 .header-social { fill: $color-foreground; }
 .header-social-accent { fill: $color-dot-accent; }
-.header-link:hover { color: $color-nav-link !important; } // used for navigation links on homepage
+.header-link:hover { color: $color-dot-accent !important; } // used for navigation links on homepage
 .text-accent { color: $color-text-accent; } // used for date in post list and home link
 
 /* Layout utilities */

@@ -1,5 +1,5 @@
 ---
-title: Team
+title: TEAM
 anchor: team
 layout: page
 ---

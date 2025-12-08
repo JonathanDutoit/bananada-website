@@ -7,15 +7,15 @@ $red-dark: #A70101;
 $white: #fff;
 
 // Config
-$color-background: $red !default;
-$color-dot-accent: $blue !default;
-$color-foreground: $red-dark !default;
+$color-background: $white !default;
+$color-dot-accent: $red !default;
+$color-foreground: $blue !default;
 $color-title: $white !default;
-$color-body-text: $black !default;
+$color-body-text: $blue !default;
 $color-text-accent: $red-dark !default;
 $color-code: $red-dark !default;
 $color-nav-link: $white !default;
-$color-primary-link: $red !default;
+$color-primary-link: $white !default;
 
 // Import sass partials (used in all themes)
 @import

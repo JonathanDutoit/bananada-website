@@ -1,5 +1,5 @@
 ---
-title: Data Story
+title: DATA STORY
 anchor: datastory
 layout: page
 ---

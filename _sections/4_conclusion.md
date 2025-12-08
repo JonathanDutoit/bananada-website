@@ -1,5 +1,5 @@
 ---
-title: Conclusion
+title: CONCLUSION
 anchor: conclusion
 layout: page
 ---
