@@ -197,3 +197,15 @@
     text-decoration: none !important;
   }
 }
+
+// 2 Columns alignment
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: $breakpoint-lg) {
+  .vertical-center {
+    flex-direction: column;
+  }
+}
