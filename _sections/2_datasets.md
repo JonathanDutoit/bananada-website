@@ -32,27 +32,42 @@ layout: page
   </div>
 </div>
 
-**Improvements from preprocessing pipeline**:
+- **Improvements from preprocessing pipeline**:
 
   - Parsed the comma-separated text vector properties into separate columns
   - Extracted `year`, `month`, `day`, `hour` features from `TIMESTAMP`
   - Created combined dataset from titles and bodies and differentiate them by new column called `source_type` which can take as value either 'title' or 'body'
 
-<div class="clearfix vertical-center">
+<div class="clearfix">
+  <h3 class="lh-condensed font-smoothing">Reddit User and Subreddit Embeddings</h3>
+</div>
+  **User embeddings**: Contains one numerical vector in low dimensional space (a.k.a. embeddings) for each user. The embeddings are 300 dimensions each. Two user embeddings are similar if they who post in similar subreddits.
+
+  **Subreddit embeddings**: Contains one numerical vector in low dimensional space (a.k.a. embeddings) for each subreddit. The embeddings are 300 dimensions each. Two subreddit embeddings are similar if the users who post in them are similar.
+
+  source: [<u>Reddit User and Subreddit Embeddings</u>](https://snap.stanford.edu/data/web-RedditEmbeddings.html)
 <!-- Left Column: Dataset metrics -->
+<div class="clearfix vertical-center">
   <div class="col-6 sm-width-full left pr-3">
-    <h3 class="lh-condensed font-smoothing">Reddit User and Subreddit Embeddings</h3>
-    <ul class="list-reset mt-2">
-      <li><strong>Number of samples:</strong> 10,000</li>
-      <li><strong>Number of features:</strong> 25</li>
-      <li><strong>Preprocessing improvements:</strong> Normalized, cleaned missing values</li>
-      <li><strong>Labels:</strong> 5 categories</li>
-    </ul>
+    <div class="clearfix prose py-2" markdown="1">
+
+  | Dataset Statistics                        | Value             |
+  |:----------------------------------------- |:----------------- |
+  | Number of users                           | 118,381           |
+  | Number of subreddits                      | 51,278            |
+  | Embedding length                          | 300               |
+  | Timespan                                  | Jan 2014 - April 2017 |
+
+  </div>
   </div>
 
   <!-- Right Column: Dataset image -->
   <div class="col-6 sm-width-full left pl-3">
-    <h3 class="lh-condensed font-smoothing">Preview</h3>
-    <img src="{{ site.baseurl }}/assets/images/dataset_preview.png" alt="Dataset preview" class="sm-width-full" />
+    <img src="{{ site.baseurl }}/assets/images/embeddings_clustering.png" alt="Dataset preview" style="max-width: 500px; width: 100%; height: auto;"/>
   </div>
 </div>
+
+- **Improvements from preprocessing pipeline**:
+
+  - Added column headers
+  - Replaced 300 embeddings features columns for a new  single column called `VECTOR` which is a `numpy` array contained all the embedding features
