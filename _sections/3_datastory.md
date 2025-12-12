@@ -5,6 +5,37 @@ layout: page
 ---
 
 ## Data Story
+
+### How did the frequency of exchanges evolve during the campaign? Did interactions cease after the election?
+(TO BE MODIFIED) Although the user and subreddit embeddings do not provide any information about the interactions in the reddit network, they contain crucial information about the layout of reddit. They essentially allow us to visualize how similar users and subreddits are.
+
+These datasets will be used to differentiate communities within Reddit. In particular, we use them to identify clusters of thematically related subreddits and groups of users with shared interests or behavioral patterns. By examining the spatial relationships between embeddings, we can detect natural boundaries between communities and uncover latent structures that may not be visible through direct interaction data alone.
+
+Combined with the later analyses of interactions between subreddits, we will better understand how these communities relate to one another — whether through cooperation, conflict, or shared discourse. This integration of similarity-based and interaction-based perspectives will help reveal both the internal cohesion of communities and the larger dynamics shaping Reddit’s social and ideological landscape.
+In order to analyze how the U.S. presidential election affected interaction patterns between different Reddit communities, it is useful to study the frequency of exchanges—for example, discussions about one of the candidates. In this case, we examine the frequency of interactions between Trump-related and non-Trump-related communities.
+
+To begin, we first need to identify the subreddits related to Trump. This is achieved by clustering subreddit embeddings, starting from a seed set of known Trump-related subreddits.
+
+With the clustering pipeline as previously, we use the same the core of Trump-related subreddits relevant_list.
+<div class="clearfix">
+  <iframe 
+    src="{{ site.baseurl }}/assets/html/subreddit_interactions_graph.html" 
+    style="width:100%; height:600px; border:0;" 
+    class="sm-width-full">
+  </iframe>
+</div>
+
+
+Explanation of the graph:
+
+When hovering over the nodes (subreddits), the graph displays the interactions each subredddit has with others. By "interactions" we mean of course posts that create hyperlinks from one subreddit to another.
+
+The visualized data includes only strong links, defined as those above the 90th percentile threshold. In other words, it focuses on the communities that interact the most between Trump-related and non-Trump-related subreddits. This filtering helps prevent the graph from becoming too cluttered.
+
+The total number of interactions (without filtering ior percentile threshold) between Trump-related and non-Trump-related communities can be summarized as follows:
+<div class="clearfix">
+  <img src="{{ site.baseurl }}/assets/images/monthly_growth.png" alt="User Embedding Projection" style="max-width: 800px; width: 100%; height: auto;"/>
+</div>
 - **Time Series of Interactions and their nature:**
 (Claudie add)
 The interactions began on January 2016. This can be explained by his infamous quote: "I could shoot somebody and i wouldn't lose voters". This also marks the beginning of negative interactions involving Trump it being one way or the other. In March, it reached a steady level where it would stay there for the large part of our data story, excluding of course the major events. This was provoked by the start of his aggressive campaign. During the weekend of the 12th march 2016, we saw many protests happening and a Trump rally got cancelled because of protests in Chicago, Illinois. He refused to take responsibility for such a violent 48 hours and thus sparked fire to the relations between Blue and Red.
