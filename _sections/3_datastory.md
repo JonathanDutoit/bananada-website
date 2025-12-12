@@ -24,3 +24,34 @@ Conclusion: While the topics brought up on these subreddits are pretty similar t
 - **t-SNE + LDA: Distinct but connected:**
 - Semantically (LDA Chart): These communities are linked to the mainstream. They talk about what everyone else is talking about.
 - Structurally (t-SNE Chart): They behave like a fortress. While they observe the mainstream topics, they do so from a tightly clustered position at the edge of the ecosystem, rarely mixing freely with the general population despite discussing the same news.
+
+<div class="clearfix">
+  <h3 class="lh-condensed font-smoothing">User Embeddings Comparison</h3>
+</div>
+To understand how different communities of Reddit users behave and relate to each other, we analyzed user embeddings—vector representations that capture behavioral patterns and similarity between users. Users are represented as an embedding, and we measured similarity between any two users by using cosine similarity, a common metric for comparing high-dimensional vectors. Higher cosine similarity indicates that two users tend to express themselves in more similar ways.
+
+This analysis focuses on three distinct Reddit user populations. The first group includes users active in pro-Trump subreddits, communities known for strong support of Donald Trump and related political discourse. The second group consists of users engaged in feminist subreddits, where conversations center on gender equality, social justice, and feminist theory. The third group is a randomly sampled set of Reddit users, serving as a neutral baseline to represent general platform activity without any ideological or topical filtering.
+
+<div class="clearfix vertical-center">
+  <div class="col-6 sm-width-full left pr-3">
+    <div class="clearfix prose py-2" markdown="1">
+
+  | Comparison                          | Mean Cosine Similarity |
+|-------------------------------------|--------------------------|
+| The_Donald vs Feminism              | 0.154                  |
+| The_Donald vs Random Users          | 0.146                  |
+| Feminism vs Random Users            | 0.164                  |
+| The_Donald (within-group)           | 0.166                  |
+| Feminism (within-group)             | 0.217                  |
+| Random Users (within-group)         | 0.186                  |
+
+  </div>
+  </div>
+
+  <!-- Right Column: Dataset image -->
+  <div class="col-6 sm-width-full left pl-3">
+    <img src="{{ site.baseurl }}/assets/images/user_embedding_projection.png" alt="User Embedding Projection" style="max-width: 500px; width: 100%; height: auto;"/>
+  </div>
+</div>
+
+Overall, the embedding comparison shows that users from pro-Trump and Feminism communities form two distinct populations with noticeably lower similarity across groups than within them. Both groups exhibit only modest internal cohesion, but the Feminism group is consistently more internally similar and forms a more compact cluster, while the Trump group is more dispersed and resembles the randomness of general Reddit users. Despite the low absolute similarity values, the separation between groups remains visible in the 2D projection, confirming that the embeddings capture meaningful differences in interest. However, the lack of strong, well-defined clusters also indicates that users—even within the same community—are highly diverse.
