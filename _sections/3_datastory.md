@@ -43,13 +43,27 @@ So, we have seen that yes, pro-Trump and non-Trump interact and they are not iso
 
 ### Who Initiates Cross-Community Interactions?
 
-Who initiates cross-community interactions?
-Are interactions symmetrical?
+Who initiates cross-community interactions? Are interactions symmetrical?
+
+In the graph below, we observe that **pro-Trump subreddits** appear much more frequently as **targets** than as sources of interactions, whether positive or negative.
+
+This pattern is expected: the pro-Trump group is contrasted with the rest of the Reddit communities, which naturally leads to a larger volume of interactions directed toward them rather than originating from them.
+<div class="clearfix">
+ <img src="{{ site.baseurl }}/assets/images/trump_interactions_dual.png" alt="User Embedding Projection" style="width: 100%; height: auto;"/>
+</div>
 
 ### What Is the Overall Sentiment of Interactions?
 
-What was the overall sentiment of the interactions?
-Do pro-Trump communities use the same hostile language as opposing communities?
+What was the overall sentiment of the interactions? Do pro-Trump communities use the same hostile language as opposing communities?
+
+<div class="clearfix">
+ <img src="{{ site.baseurl }}/assets/images/plot_negative_interactions.png" alt="User Embedding Projection" style="width: 100%; height: auto;"/>
+</div>
+The graph above reveals an interesting dynamic. Pro-Trump communities become significantly more **prominent as sources** when we isolate **negative interactions**. For some months, they produce as many or even more negative interactions than they receive.
+
+The curves for negative interactions show only partially similar slopes: although they do not perfectly overlap, they tend to rise and fall in a loosely coordinated way. This suggests some degree of reactive behavior, where increases in negative interactions from one side are often followed, though not always closely, by a corresponding response from the other.
+
+The **total number of interactions** spikes sharply in **November 2016**, coinciding with the **U.S. presidential election won by Donald Trump**. This month also shows a substantial **rise in negative interactions**, indicating **heightened polarization during the election period**. 
 
 ### How Did Interactions Evolve During the Campaign?
 How did the frequency of exchanges evolve during the campaign?
