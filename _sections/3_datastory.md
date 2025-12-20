@@ -6,8 +6,52 @@ layout: page
 
 ## Data Story
 
-### How did the frequency of exchanges evolve during the campaign? Did interactions cease after the election?
-In order to analyze how the U.S. presidential election affected interaction patterns between different Reddit communities, it is useful to study the frequency of exchanges—for example, discussions about one of the candidates. In this case, we examine the frequency of interactions between Trump-related and non-Trump-related communities.
+### Do Pro-Trump and Non-Trump Communities Interact?
+
+Which subreddits interact with pro-Trump communities? Are they isolated? Do these communities interact at all?
+
+We can directly analyze which subreddits interact the most with Trump-related subreddits.
+The visualization below shows only strong links, defined as those above the 90th percentile. This focuses on the communities with the highest interaction between Trump-related and non–Trump-related subreddits, helping to keep the graph readable and avoid clutter.
+
+When hovering over a node (subreddit), the graph displays its interactions with others. For non–Trump-related subreddits, this corresponds to the number of interactions with Trump-related communities. Here, interactions refer to posts that create hyperlinks from one subreddit to another.
+
+The graph uses a spring layout while also preserving spatial relationships between subreddits based on the embedding.
+
+<div class="clearfix">
+  <iframe 
+    src="{{ site.baseurl }}/assets/html/subreddit_interactions_graph.html" 
+    style="width:100%; height:600px; border:0;" 
+    class="sm-width-full">
+  </iframe>
+</div>
+
+
+Rather than ignoring one another, pro-Trump and non-Trump communities frequently intersected—often in politically adjacent spaces.
+
+<div class="clearfix">
+     <iframe 
+    src="{{ site.baseurl }}/assets/html/tsne-plot.html" 
+    style="width:100%; height:600px; border:0;" 
+    class="sm-width-full">
+  </iframe>
+</div>
+
+
+### Who Initiates Cross-Community Interactions?
+
+Who initiates cross-community interactions?
+Are interactions symmetrical?
+
+### What Is the Overall Sentiment of Interactions?
+
+What was the overall sentiment of the interactions?
+Do pro-Trump communities use the same hostile language as opposing communities?
+
+### How Did Interactions Evolve During the Campaign?
+How did the frequency of exchanges evolve during the campaign?
+Did interactions cease after the election?
+
+In order to analyze how the U.S. presidential election affected interaction patterns between different Reddit communities, it is useful to study the frequency of exchanges between Trump-related and non-Trump-related communities.
 
 <div class="clearfix vertical-center">
   <div class="col-7 sm-width-full mr-2">
@@ -25,20 +69,25 @@ In order to analyze how the U.S. presidential election affected interaction patt
   </div>
 </div>
 
-We can also directly analyze which subreddits interact the most with Trump-related subreddits.
-The visualization shows only strong links, defined as those above the 90th percentile. This focuses on the communities with the highest interaction between Trump-related and non–Trump-related subreddits, helping to keep the graph readable and avoid clutter.
+### What Triggered Peaks of Hostility?
 
-When hovering over a node (subreddit), the graph displays its interactions with others. For non–Trump-related subreddits, this corresponds to the number of interactions with Trump-related communities. Here, interactions refer to posts that create hyperlinks from one subreddit to another.
+What triggered the peaks of hostility?
+Which political events or media controversies act as catalysts?
 
-The graph uses a spring layout while also preserving spatial relationships between subreddits based on the embedding.
+### What Kind of Conflict Is This? Ideology, Identity, or Belonging?
 
-<div class="clearfix">
-  <iframe 
-    src="{{ site.baseurl }}/assets/html/subreddit_interactions_graph.html" 
-    style="width:100%; height:600px; border:0;" 
-    class="sm-width-full">
-  </iframe>
-</div>
+When communities attack, do they defend ideology, identity, or belonging?
+How do linguistic markers reveal emotional grammar?
+
+### Did Cross-Community Conflict Affect Community Growth?
+
+Did exchanges contribute to community growth?
+Which community experienced greater growth?
+
+### Are These Communities Actually That Different?
+
+Do targeted communities and pro-Trump communities share characteristics?
+Are users similar?
 
 - **Time Series of Interactions and their nature:**
 (Claudie add)
