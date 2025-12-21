@@ -31,7 +31,7 @@ layout: page
   <div class="col-2" style="display: flex; flex-direction: column; align-items: center; justify-content: center">
     {% include dot.html %}
     <div class="mt-2">
-      <a href="https://github.com/Llghtbeast"><u>Thomas Müller</u></a>
+      <a href="https://github.com/Llghtbeast"><u>Thomas Muller</u></a>
     </div>
   </div>
 
