@@ -112,7 +112,7 @@ and grey points represent the rest of the subreddits.
   </div>
 
   <div style="font-size: 14px; line-height: 1.6; padding-left: 10px; border-left: 3px solid #e0e0e0;">
-    Turns out you’re both right. The interactions do happen, and they’re not rare, but they’re concentrated among a handful of highly active communities. Not isolation, but definitely not free flowing conversation either. Next, we will analyze more these different aspects of these interactions, as well as their frequency.
+    Turns out you’re both right. The interactions do happen, and they’re not rare, but they’re concentrated among a handful of highly active communities. Not isolation, but definitely not free flowing conversation either. Next up: breaking down these interactions and their frequency.
   </div>
 
 </div>
@@ -120,6 +120,30 @@ and grey points represent the rest of the subreddits.
 ### How Did Interactions Evolve During the Campaign?
 How did the frequency of exchanges evolve during the campaign?
 Did interactions cease after the election?
+
+<div style="font-family: Verdana, Geneva, sans-serif; color: black; max-width: 700px; margin-top: 20px;">
+
+  <div style="font-size: 12px; color: #555; margin-bottom: 6px;">
+    <strong>u/LoveHistory</strong>
+  </div>
+
+  <div style="font-size: 14px; line-height: 1.6; padding-left: 10px; border-left: 3px solid #e0e0e0;">
+    Did things actually heat up during the campaign, or is that just how we remember it?
+  </div>
+
+</div>
+
+<div style="font-family: Verdana, Geneva, sans-serif; color: black; max-width: 700px; margin-top: 20px;">
+
+  <div style="font-size: 12px; color: #555; margin-bottom: 6px;">
+    <strong>u/PoliticalJunkie</strong>
+  </div>
+
+  <div style="font-size: 14px; line-height: 1.6; padding-left: 10px; border-left: 3px solid #e0e0e0;">
+    If Reddit didn’t explode in 2016, I’ll eat my keyboard.
+  </div><br/><br/>
+
+</div>
 
 In order to analyze how the U.S. presidential election affected interaction patterns between different Reddit communities, it is useful to study the frequency of exchanges between Trump-related and non-Trump-related communities.
 
@@ -139,7 +163,17 @@ In order to analyze how the U.S. presidential election affected interaction patt
   </div>
 </div>
 
+<div style="font-family: Verdana, Geneva, sans-serif; color: black; max-width: 700px; margin-top: 20px;">
 
+  <div style="font-size: 12px; color: #555; margin-bottom: 6px;">
+    <strong>u/BananADA</strong>
+  </div>
+
+  <div style="font-size: 14px; line-height: 1.6; padding-left: 10px; border-left: 3px solid #e0e0e0;">
+    The graph doesn’t lie. Activity skyrockets in early 2016, peaks in November, the month of the election, then slowly cools off but never returns to baseline. The election sparked conversation, and Trump’s way of governing kept fueling it
+  </div>
+
+</div>
 
 
 ### Who Initiates Cross-Community Interactions?
@@ -185,10 +219,38 @@ This pattern is expected: the pro-Trump group is contrasted with the rest of the
   </div>
 
   <div style="font-size: 14px; line-height: 1.6; padding-left: 10px; border-left: 3px solid #e0e0e0;">
-    The data has spoken: Trump related subs are far more often targets than sources. The traffic flows naturally toward them more than away from them. But first things first, this is about interactions in general, now let’s see what happens when we focus on attacks.
+    First things first guys, this is about interactions in general, not specifically attacks. Trump related subs are far more often targets than sources. The traffic flows naturally toward them more than away from them.  Now let’s see what happens when we focus on attacks.
   </div>
 
 </div>
+
+
+
+
+### What Is the Overall Sentiment of Interactions?
+
+From the dataset paper, we already know that most interactions are positive, and the graph above confirms it. So let’s take a closer look at the negative interactions, the ones having the strongest impact.
+
+<div style="font-family: Verdana, Geneva, sans-serif; color: black; max-width: 700px; margin-top: 20px;">
+
+  <div style="font-size: 12px; color: #555; margin-bottom: 6px;">
+    <strong>u/DramaKing</strong>
+  </div>
+
+  <div style="font-size: 14px; line-height: 1.6; padding-left: 10px; border-left: 3px solid #e0e0e0;">
+    Can you see the plot twist coming?
+  </div>
+
+</div>
+
+
+<div class="clearfix">
+ <img src="{{ site.baseurl }}/assets/images/plot_negative_interactions.png" alt="User Embedding Projection" style="width: 100%; height: auto;"/>
+</div>
+
+The graph above reveals an interesting dynamic. Pro-Trump communities become significantly more **prominent as sources** when we isolate **negative interactions**. For some months, they produce as many or even more negative interactions than they receive.
+
+The curves for negative interactions show only partially similar slopes: although they do not perfectly overlap, they tend to rise and fall in a loosely coordinated way. This suggests some degree of reactive behavior, where increases in negative interactions from one side are often followed, though not always closely, by a corresponding response from the other.
 
 
 ### What Triggered Peaks of Hostility?
@@ -196,23 +258,12 @@ This pattern is expected: the pro-Trump group is contrasted with the rest of the
 What triggered the peaks of hostility?
 Which political events or media controversies act as catalysts?
 
+
+
 The interactions began on January 2016. This can be explained by his infamous quote: "I could shoot somebody and i wouldn't lose voters". This also marks the beginning of negative interactions involving Trump it being one way or the other. In March, it reached a steady level where it would stay there for the large part of our data story, excluding of course the major events. This was provoked by the start of his aggressive campaign. During the weekend of the 12th march 2016, we saw many protests happening and a Trump rally got cancelled because of protests in Chicago, Illinois. He refused to take responsibility for such a violent 48 hours and thus sparked fire to the relations between Blue and Red.
-Obviously the 2 largest peaks of interactions occured during November 2016 and February 2017. The first date represents the month with the election results and the second occurs when Trump took office on January 20th.
+Obviously the 2 largest peaks of interactions occured during November 2016 and February 2017. Those are the result of, respectively, the election month and "Not My Presidents Day", a series of rallies against the president, held on Washington's Birthday, February 20, 2017, after Trump took office.
 
-### What Is the Overall Sentiment of Interactions?
-
-What was the overall sentiment of the interactions?
-
-<div class="clearfix">
- <img src="{{ site.baseurl }}/assets/images/plot_negative_interactions.png" alt="User Embedding Projection" style="width: 100%; height: auto;"/>
-</div>
-The graph above reveals an interesting dynamic. Pro-Trump communities become significantly more **prominent as sources** when we isolate **negative interactions**. For some months, they produce as many or even more negative interactions than they receive.
-
-The curves for negative interactions show only partially similar slopes: although they do not perfectly overlap, they tend to rise and fall in a loosely coordinated way. This suggests some degree of reactive behavior, where increases in negative interactions from one side are often followed, though not always closely, by a corresponding response from the other.
-
-The **total number of interactions** spikes sharply in **November 2016**, coinciding with the **U.S. presidential election won by Donald Trump**. This month also shows a substantial **rise in negative interactions**, indicating **heightened polarization during the election period**. 
-
-Do pro-Trump communities use the same hostile language as opposing communities?
+### Do pro-Trump communities use the same hostile language as opposing communities?
 
 To answer this question, we perform a analysis of the language used in posts interacting with Trump written on pro-trump subreddits versus posts written on non-pro-trump subreddits. The graph below presents the temporal language analysis.
 
