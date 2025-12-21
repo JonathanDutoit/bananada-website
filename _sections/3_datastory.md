@@ -300,11 +300,6 @@ The second important spike occurs in **November/December 2016**. This coincides 
 
 </div>
 
-### Did Cross-Community Conflict Affect Community Growth?
-
-Did exchanges contribute to community growth?
-Which community experienced greater growth?
-
 ### Are These Communities Actually That Different?
 
 Do targeted communities and pro-Trump communities share characteristics?
