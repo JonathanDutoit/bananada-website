@@ -52,6 +52,14 @@ This pattern is expected: the pro-Trump group is contrasted with the rest of the
  <img src="{{ site.baseurl }}/assets/images/trump_interactions_dual.png" alt="User Embedding Projection" style="width: 100%; height: auto;"/>
 </div>
 
+### What Triggered Peaks of Hostility?
+
+What triggered the peaks of hostility?
+Which political events or media controversies act as catalysts?
+
+The interactions began on January 2016. This can be explained by his infamous quote: "I could shoot somebody and i wouldn't lose voters". This also marks the beginning of negative interactions involving Trump it being one way or the other. In March, it reached a steady level where it would stay there for the large part of our data story, excluding of course the major events. This was provoked by the start of his aggressive campaign. During the weekend of the 12th march 2016, we saw many protests happening and a Trump rally got cancelled because of protests in Chicago, Illinois. He refused to take responsibility for such a violent 48 hours and thus sparked fire to the relations between Blue and Red.
+Obviously the 2 largest peaks of interactions occured during November 2016 and February 2017. The first date represents the month with the election results and the second occurs when Trump took office on January 20th.
+
 ### What Is the Overall Sentiment of Interactions?
 
 What was the overall sentiment of the interactions? Do pro-Trump communities use the same hostile language as opposing communities?
@@ -87,15 +95,9 @@ In order to analyze how the U.S. presidential election affected interaction patt
   </div>
 </div>
 
-### What Triggered Peaks of Hostility?
 
-What triggered the peaks of hostility?
-Which political events or media controversies act as catalysts?
 
-- **Time Series of Interactions and their nature:**
-(Claudie add)
-The interactions began on January 2016. This can be explained by his infamous quote: "I could shoot somebody and i wouldn't lose voters". This also marks the beginning of negative interactions involving Trump it being one way or the other. In March, it reached a steady level where it would stay there for the large part of our data story, excluding of course the major events. This was provoked by the start of his aggressive campaign. During the weekend of the 12th march 2016, we saw many protests happening and a Trump rally got cancelled because of protests in Chicago, Illinois. He refused to take responsibility for such a violent 48 hours and thus sparked fire to the relations between Blue and Red.
-Obviously the 2 largest peaks of interactions occured during November 2016 and February 2017. The first date represents the month with the election results and the second occurs when Trump took office on January 20th.
+
 
 ### What Kind of Conflict Is This? Ideology, Identity, or Belonging?
 
