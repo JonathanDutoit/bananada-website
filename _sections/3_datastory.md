@@ -260,10 +260,21 @@ Which political events or media controversies act as catalysts?
 
 
 
-The interactions began on January 2016. This can be explained by his infamous quote: "I could shoot somebody and i wouldn't lose voters". This also marks the beginning of negative interactions involving Trump it being one way or the other. In March, it reached a steady level where it would stay there for the large part of our data story, excluding of course the major events. This was provoked by the start of his aggressive campaign. During the weekend of the 12th march 2016, we saw many protests happening and a Trump rally got cancelled because of protests in Chicago, Illinois. He refused to take responsibility for such a violent 48 hours and thus sparked fire to the relations between Blue and Red.
+The interactions began on January 2016. This can be explained by his infamous quote: "I could shoot somebody and i wouldn't lose voters". This also marks the beginning of negative interactions involving Trump it being one way or the other (see previous graph). In March, it reached a steady level where it would stay there for the large part of our data story, excluding of course the major events. This was provoked by the start of his aggressive campaign. During the weekend of the 12th march 2016, we saw many protests happening and a Trump rally got cancelled because of protests in Chicago, Illinois. He refused to take responsibility for such a violent 48 hours and thus sparked fire to the relations between Blue and Red.
 Obviously the 2 largest peaks of interactions occured during November 2016 and February 2017. Those are the result of, respectively, the election month and "Not My Presidents Day", a series of rallies against the president, held on Washington's Birthday, February 20, 2017, after Trump took office.
 
-### Do pro-Trump communities use the same hostile language as opposing communities?
+
+<div style="font-family: Verdana, Geneva, sans-serif; color: black; max-width: 700px; margin-top: 20px;">
+
+  <div style="font-size: 12px; color: #555; margin-bottom: 6px;">
+    <strong>u/DataLinguist</strong>
+  </div>
+
+  <div style="font-size: 14px; line-height: 1.6; padding-left: 10px; border-left: 3px solid #e0e0e0;">
+    Do pro-Trump communities use the same hostile language as opposing communities?
+  </div><br><br>
+
+</div>
 
 To answer this question, we perform a analysis of the language used in posts interacting with Trump written on pro-trump subreddits versus posts written on non-pro-trump subreddits. The graph below presents the temporal language analysis.
 
@@ -277,7 +288,17 @@ Therefore, the first important dynamic we can observe is the spike in language f
 
 The second important spike occurs in **November/December 2016**. This coincides with the U.S. presidential election (November 8, 2016) and its results.
 
+<div style="font-family: Verdana, Geneva, sans-serif; color: black; max-width: 700px; margin-top: 20px;">
 
+  <div style="font-size: 12px; color: #555; margin-bottom: 6px;">
+    <strong>u/BananADA</strong>
+  </div>
+
+  <div style="font-size: 14px; line-height: 1.6; padding-left: 10px; border-left: 3px solid #e0e0e0;">
+    The spikes line up almost perfectly with major political moments: controversial statements, rallies, protests, and of course the election itself. Hostility wasn’t random, it followed the news cycle like a shadow.
+  </div>
+
+</div>
 
 ### What Kind of Conflict Is This? Ideology, Identity, or Belonging?
 
@@ -293,6 +314,31 @@ Which community experienced greater growth?
 
 Do targeted communities and pro-Trump communities share characteristics?
 Are users similar?
+<div style="font-family: Verdana, Geneva, sans-serif; color: black; max-width: 700px; margin-top: 20px;">
+
+  <div style="font-size: 12px; color: #555; margin-bottom: 6px;">
+    <strong>u/AnthroGeek</strong>
+  </div>
+
+  <div style="font-size: 14px; line-height: 1.6; padding-left: 10px; border-left: 3px solid #e0e0e0;">
+    Okay but what about the users? Are Trump supporters and feminists like… from different planets?
+  </div>
+
+</div>
+
+<div style="font-family: Verdana, Geneva, sans-serif; color: black; max-width: 700px; margin-top: 20px;">
+
+  <div style="font-size: 12px; color: #555; margin-bottom: 6px;">
+    <strong>u/VectorMathFan</strong>
+  </div>
+
+  <div style="font-size: 14px; line-height: 1.6; padding-left: 10px; border-left: 3px solid #e0e0e0;">
+    Let’s see what the embeddings say. High‑dimensional drama incoming.
+  </div><br/><br/>
+
+</div>
+
+
 
 From the T-SNE representation below, we can conclude that rather than ignoring one another, pro-Trump and non-Trump communities frequently intersected—often in politically adjacent spaces.
 
@@ -362,3 +408,15 @@ This analysis focuses on three distinct Reddit user populations. The first group
 </div>
 
 Overall, the embedding comparison shows that users from pro-Trump and Feminism communities form two distinct populations with noticeably lower similarity across groups than within them. Both groups exhibit only modest internal cohesion, but the Feminism group is consistently more internally similar and forms a more compact cluster, while the Trump group is more dispersed and resembles the randomness of general Reddit users. Despite the low absolute similarity values, the separation between groups remains visible in the 2D projection, confirming that the embeddings capture meaningful differences in interest. However, the lack of strong, well-defined clusters also indicates that users—even within the same community—are highly diverse.
+
+
+
+<div style="font-family: Verdana, Geneva, sans-serif; color: black; max-width: 700px; margin-top: 20px;">
+
+  <div style="font-size: 12px; color: #555; margin-bottom: 6px;">
+    <strong>u/BananADA</strong>
+  </div>
+
+  <div style="font-size: 14px; line-height: 1.6; padding-left: 10px; border-left: 3px solid #e0e0e0;">
+    Bottom line: the embeddings capture real differences in interests, but everyone’s still pretty diverse, even within their own communities.
+  </div>
