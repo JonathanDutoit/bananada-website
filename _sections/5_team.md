@@ -8,27 +8,38 @@ layout: page
 <div class="container mx-auto mt-3 col-12 clearfix" style="display: flex; align-items: center; justify-content: center">
   <div class="col-2" style="display: flex; flex-direction: column; align-items: center; justify-content: center">
     {% include dot.html %}
-    <div class="mt-2">Claudie Gaiddon</div>
+    <div class="mt-2">
+      <a href="https://github.com/Claudie-gd"><u>Claudie Gaiddon</u></a>
+    </div>
   </div>
 
   <div class="col-2" style="display: flex; flex-direction: column; align-items: center; justify-content: center">
     {% include dot.html %}
-    <div class="mt-2">Jonathan Dutoit</div>
+    <div class="mt-2">
+      <a href="https://github.com/JonathanDutoit"><u>Jonathan Dutoit</u></a>
+    </div>
+  </div>
+
+
+  <div class="col-2" style="display: flex; flex-direction: column; align-items: center; justify-content: center">
+    {% include dot.html %}
+    <div class="mt-2">
+      <a href="https://github.com/276746"><u>Oscar Duong</u></a>
+    </div>
   </div>
 
   <div class="col-2" style="display: flex; flex-direction: column; align-items: center; justify-content: center">
     {% include dot.html %}
-    <div class="mt-2">Oscar Duong</div>
+    <div class="mt-2">
+      <a href="https://github.com/Llghtbeast"><u>Thomas Müller</u></a>
+    </div>
   </div>
 
   <div class="col-2" style="display: flex; flex-direction: column; align-items: center; justify-content: center">
     {% include dot.html %}
-    <div class="mt-2">Thomas Müller</div>
-  </div>
-
-  <div class="col-2" style="display: flex; flex-direction: column; align-items: center; justify-content: center">
-    {% include dot.html %}
-    <div class="mt-2">Mathis Richard</div>
+    <div class="mt-2">
+      <a href="https://github.com/mathisrich"><u>Mathis Richard</u></a>
+    </div>
   </div>
 </div>
 
