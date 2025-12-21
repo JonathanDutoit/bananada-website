@@ -276,6 +276,8 @@ Obviously the 2 largest peaks of interactions occured during November 2016 and F
 
 </div>
 
+### How does pro-Trump posts differs from others?
+
 To answer this question, we perform a analysis of the language used in posts interacting with Trump written on pro-trump subreddits versus posts written on non-pro-trump subreddits. The graph below presents the temporal language analysis.
 
 <div class="clearfix">
@@ -378,10 +380,9 @@ One notable exception is `r/trump_train` (outlier), isolated at the top of the g
 - Semantically (_LDA Chart_): These communities are linked to the mainstream. They talk about what everyone else is talking about.
 - Structurally (_t-SNE Chart_): They behave like a fortress. While they observe the mainstream topics, they do so from a tightly clustered position at the edge of the ecosystem, rarely mixing freely with the general population despite discussing the same news.
 
-<div class="clearfix">
-  <h4 class="lh-condensed font-smoothing">User Embeddings Comparison</h4>
-</div>
-To understand how different communities of Reddit users behave and relate to each other, we analyzed user embeddings—vector representations that capture behavioral patterns and similarity between users. Users are represented as an embedding, and we measured similarity between any two users by using cosine similarity, a common metric for comparing high-dimensional vectors. Higher cosine similarity indicates that two users tend to express themselves in more similar ways.
+### Do users from pro-Trump subreddits and opposing subreddits share similar characteristics?
+
+To understand how different communities of Reddit users behave and relate to each other, we can analyze user embeddings—vector representations that capture behavioral patterns and similarity between users. Users are represented as an embedding, and we measured similarity between any two users by using cosine similarity, a common metric for comparing high-dimensional vectors. Higher cosine similarity indicates that two users tend to express themselves in more similar ways.
 
 This analysis focuses on three distinct Reddit user populations. The first group includes users active in pro-Trump subreddits, communities known for strong support of Donald Trump and related political discourse. The second group consists of users engaged in feminist subreddits, where conversations center on gender equality, social justice, and feminist theory. The third group is a randomly sampled set of Reddit users, serving as a neutral baseline to represent general platform activity without any ideological or topical filtering.
 
