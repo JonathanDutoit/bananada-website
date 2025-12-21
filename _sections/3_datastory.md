@@ -6,9 +6,74 @@ layout: page
 
 ## Data Story
 
+<div style="font-family: Verdana, Geneva, sans-serif; color: black; max-width: 700px;">
+
+  <!-- Community -->
+  <div style="font-size: 12px; font-weight: bold; margin-bottom: 2px;">
+    r/ADA
+  </div>
+
+  <!-- User -->
+  <div style="font-size: 12px; color: #555; margin-bottom: 10px;">
+    u/BananaADA
+  </div>
+
+  <!-- Title -->
+  <div style="font-size: 22px; font-weight: bold; margin-bottom: 14px;">
+    We dug into 3 years of Reddit data to see how the 2016 election warped the platform. Here’s what we found.
+  </div>
+
+  <!-- Body text -->
+  <div style="font-size: 14px; line-height: 1.6;">
+    <p>
+      Alright folks, after spending way too many nights staring at hyperlink graphs and user embeddings instead of touching grass, our team finally wrapped up a deep dive into how Reddit reacted to the 2016 U.S. election.
+    </p>
+
+    <p>
+      You know how everyone remembers that era as a nonstop flame war between Trump supporters and… basically everyone else? We wanted to check whether that collective memory actually shows up in the data. Were pro-Trump subs isolated echo chambers? Were they constantly fighting with the rest of Reddit? Did hostility spike around real-world events, or was it just Reddit being Reddit?
+    </p>
+
+    <p>
+      So we pulled together two massive datasets and tried to reconstruct the social dynamics of that period.
+    </p>
+
+    <p>
+      If you’ve ever wondered what political polarization looks like in network form, or whether the stereotypes about these communities hold up, this is for you.
+    </p>
+  </div>
+
+</div>
+
+
 ### Do Pro-Trump and Non-Trump Communities Interact?
 
 Which subreddits interact with pro-Trump communities? Do these communities interact at all? Are they isolated?
+
+<div style="font-family: Verdana, Geneva, sans-serif; color: black; max-width: 700px; margin-top: 20px;">
+
+  <div style="font-size: 12px; color: #555; margin-bottom: 6px;">
+    <strong>u/BlueStateReader</strong>
+  </div>
+
+  <div style="font-size: 14px; line-height: 1.6; padding-left: 10px; border-left: 3px solid #e0e0e0;">
+    Honestly, I feel like Trump subs never talk to anyone outside their bubble.
+    Do they even interact with the rest of Reddit?
+  </div>
+
+</div>
+
+<div style="font-family: Verdana, Geneva, sans-serif; color: black; max-width: 700px; margin-top: 20px;">
+
+  <div style="font-size: 12px; color: #555; margin-bottom: 6px;">
+    <strong>u/Patriot1776</strong>
+  </div>
+
+  <div style="font-size: 14px; line-height: 1.6; padding-left: 10px; border-left: 3px solid #e0e0e0;">
+    Lol what? People link to us all the time and usually to complain. Trust me, we see them.
+  </div><br><br>
+
+</div>  
+
 
 The answer these questions, we can directly analyze which subreddits interact the most with Trump-related subreddits.
 
@@ -39,7 +104,18 @@ and grey points represent the rest of the subreddits.
   </iframe>
 </div>
 
-So, we have seen that yes, pro-Trump and non-Trump interact and they are not isolated one from the other. Next, we will analyze more these different aspects of these interactions, as well as they frequency. 
+
+<div style="font-family: Verdana, Geneva, sans-serif; color: black; max-width: 700px; margin-top: 20px;">
+
+  <div style="font-size: 12px; color: #555; margin-bottom: 6px;">
+    <strong>u/BananADA</strong>
+  </div>
+
+  <div style="font-size: 14px; line-height: 1.6; padding-left: 10px; border-left: 3px solid #e0e0e0;">
+    Turns out you’re both right. The interactions do happen, and they’re not rare, but they’re concentrated among a handful of highly active communities. Not isolation, but definitely not free flowing conversation either. Next, we will analyze more these different aspects of these interactions, as well as their frequency.
+  </div>
+
+</div>
 
 ### How Did Interactions Evolve During the Campaign?
 How did the frequency of exchanges evolve during the campaign?
@@ -63,9 +139,37 @@ In order to analyze how the U.S. presidential election affected interaction patt
   </div>
 </div>
 
+
+
+
 ### Who Initiates Cross-Community Interactions?
 
 Who initiates cross-community interactions? Are interactions symmetrical?
+
+<div style="font-family: Verdana, Geneva, sans-serif; color: black; max-width: 700px; margin-top: 20px;">
+
+  <div style="font-size: 12px; color: #555; margin-bottom: 6px;">
+    <strong>u/NeutralObserver</strong>
+  </div>
+
+  <div style="font-size: 14px; line-height: 1.6; padding-left: 10px; border-left: 3px solid #e0e0e0;">
+    I always assumed Trump subs were the ones starting fights. Isn’t that their whole reputation?
+  </div>
+
+</div>
+
+<div style="font-family: Verdana, Geneva, sans-serif; color: black; max-width: 700px; margin-top: 20px;">
+
+  <div style="font-size: 12px; color: #555; margin-bottom: 6px;">
+    <strong>u/ConservativeCoder</strong>
+  </div>
+
+  <div style="font-size: 14px; line-height: 1.6; padding-left: 10px; border-left: 3px solid #e0e0e0;">
+    Bro, have you seen how often people link to us just to dunk? We’re basically a magnet.
+  </div><br><br>
+
+</div>
+
 
 In the graph below, we observe that **pro-Trump subreddits** appear much more frequently as **targets** than as sources of interactions, whether positive or negative.
 
@@ -73,6 +177,19 @@ This pattern is expected: the pro-Trump group is contrasted with the rest of the
 <div class="clearfix">
  <img src="{{ site.baseurl }}/assets/images/trump_interactions_dual.png" alt="User Embedding Projection" style="width: 100%; height: auto;"/>
 </div>
+
+<div style="font-family: Verdana, Geneva, sans-serif; color: black; max-width: 700px; margin-top: 20px;">
+
+  <div style="font-size: 12px; color: #555; margin-bottom: 6px;">
+    <strong>u/BananADA</strong>
+  </div>
+
+  <div style="font-size: 14px; line-height: 1.6; padding-left: 10px; border-left: 3px solid #e0e0e0;">
+    The data has spoken: Trump related subs are far more often targets than sources. The traffic flows naturally toward them more than away from them. But first things first, this is about interactions in general, now let’s see what happens when we focus on attacks.
+  </div>
+
+</div>
+
 
 ### What Triggered Peaks of Hostility?
 
