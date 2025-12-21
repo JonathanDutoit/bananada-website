@@ -24,7 +24,7 @@ The visualization below shows only strong links, defined as those above the 90th
   <div class="col-3 sm-width-full">
       When hovering over a node (subreddit), the graph displays its interactions with others. For non–Trump-related subreddits, this corresponds to the number of interactions with Trump-related communities. Here, interactions refer to posts that create hyperlinks from one subreddit to another.
       <br/><br/>
-      The graph uses a spring layout while also preserving spatial relationships between subreddits based on the embedding.
+      The graph uses a spring lajyout while also preserving spatial relationships between subreddits based on the embedding.
   </div>
 </div>
 
@@ -40,38 +40,6 @@ and grey points represent the rest of the subreddits.
 </div>
 
 So, we have seen that yes, pro-Trump and non-Trump interact and they are not isolated one from the other. Next, we will analyze more these different aspects of these interactions, as well as they frequency. 
-
-### Who Initiates Cross-Community Interactions?
-
-Who initiates cross-community interactions? Are interactions symmetrical?
-
-In the graph below, we observe that **pro-Trump subreddits** appear much more frequently as **targets** than as sources of interactions, whether positive or negative.
-
-This pattern is expected: the pro-Trump group is contrasted with the rest of the Reddit communities, which naturally leads to a larger volume of interactions directed toward them rather than originating from them.
-<div class="clearfix">
- <img src="{{ site.baseurl }}/assets/images/trump_interactions_dual.png" alt="User Embedding Projection" style="width: 100%; height: auto;"/>
-</div>
-
-### What Triggered Peaks of Hostility?
-
-What triggered the peaks of hostility?
-Which political events or media controversies act as catalysts?
-
-The interactions began on January 2016. This can be explained by his infamous quote: "I could shoot somebody and i wouldn't lose voters". This also marks the beginning of negative interactions involving Trump it being one way or the other. In March, it reached a steady level where it would stay there for the large part of our data story, excluding of course the major events. This was provoked by the start of his aggressive campaign. During the weekend of the 12th march 2016, we saw many protests happening and a Trump rally got cancelled because of protests in Chicago, Illinois. He refused to take responsibility for such a violent 48 hours and thus sparked fire to the relations between Blue and Red.
-Obviously the 2 largest peaks of interactions occured during November 2016 and February 2017. The first date represents the month with the election results and the second occurs when Trump took office on January 20th.
-
-### What Is the Overall Sentiment of Interactions?
-
-What was the overall sentiment of the interactions? Do pro-Trump communities use the same hostile language as opposing communities?
-
-<div class="clearfix">
- <img src="{{ site.baseurl }}/assets/images/plot_negative_interactions.png" alt="User Embedding Projection" style="width: 100%; height: auto;"/>
-</div>
-The graph above reveals an interesting dynamic. Pro-Trump communities become significantly more **prominent as sources** when we isolate **negative interactions**. For some months, they produce as many or even more negative interactions than they receive.
-
-The curves for negative interactions show only partially similar slopes: although they do not perfectly overlap, they tend to rise and fall in a loosely coordinated way. This suggests some degree of reactive behavior, where increases in negative interactions from one side are often followed, though not always closely, by a corresponding response from the other.
-
-The **total number of interactions** spikes sharply in **November 2016**, coinciding with the **U.S. presidential election won by Donald Trump**. This month also shows a substantial **rise in negative interactions**, indicating **heightened polarization during the election period**. 
 
 ### How Did Interactions Evolve During the Campaign?
 How did the frequency of exchanges evolve during the campaign?
@@ -95,7 +63,51 @@ In order to analyze how the U.S. presidential election affected interaction patt
   </div>
 </div>
 
+### Who Initiates Cross-Community Interactions?
 
+Who initiates cross-community interactions? Are interactions symmetrical?
+
+In the graph below, we observe that **pro-Trump subreddits** appear much more frequently as **targets** than as sources of interactions, whether positive or negative.
+
+This pattern is expected: the pro-Trump group is contrasted with the rest of the Reddit communities, which naturally leads to a larger volume of interactions directed toward them rather than originating from them.
+<div class="clearfix">
+ <img src="{{ site.baseurl }}/assets/images/trump_interactions_dual.png" alt="User Embedding Projection" style="width: 100%; height: auto;"/>
+</div>
+
+### What Triggered Peaks of Hostility?
+
+What triggered the peaks of hostility?
+Which political events or media controversies act as catalysts?
+
+The interactions began on January 2016. This can be explained by his infamous quote: "I could shoot somebody and i wouldn't lose voters". This also marks the beginning of negative interactions involving Trump it being one way or the other. In March, it reached a steady level where it would stay there for the large part of our data story, excluding of course the major events. This was provoked by the start of his aggressive campaign. During the weekend of the 12th march 2016, we saw many protests happening and a Trump rally got cancelled because of protests in Chicago, Illinois. He refused to take responsibility for such a violent 48 hours and thus sparked fire to the relations between Blue and Red.
+Obviously the 2 largest peaks of interactions occured during November 2016 and February 2017. The first date represents the month with the election results and the second occurs when Trump took office on January 20th.
+
+### What Is the Overall Sentiment of Interactions?
+
+What was the overall sentiment of the interactions?
+
+<div class="clearfix">
+ <img src="{{ site.baseurl }}/assets/images/plot_negative_interactions.png" alt="User Embedding Projection" style="width: 100%; height: auto;"/>
+</div>
+The graph above reveals an interesting dynamic. Pro-Trump communities become significantly more **prominent as sources** when we isolate **negative interactions**. For some months, they produce as many or even more negative interactions than they receive.
+
+The curves for negative interactions show only partially similar slopes: although they do not perfectly overlap, they tend to rise and fall in a loosely coordinated way. This suggests some degree of reactive behavior, where increases in negative interactions from one side are often followed, though not always closely, by a corresponding response from the other.
+
+The **total number of interactions** spikes sharply in **November 2016**, coinciding with the **U.S. presidential election won by Donald Trump**. This month also shows a substantial **rise in negative interactions**, indicating **heightened polarization during the election period**. 
+
+Do pro-Trump communities use the same hostile language as opposing communities?
+
+To answer this question, we perform a analysis of the language used in posts interacting with Trump written on pro-trump subreddits versus posts written on non-pro-trump subreddits. The graph below presents the temporal language analysis.
+
+<div class="clearfix">
+ <img src="{{ site.baseurl }}/assets/images/temporal_language_analysis.png" alt="User Embedding Projection" style="width: 100%; height: auto;"/>
+</div>
+
+We first note that the left-most values in the plot must be interpreted with a grain of salt, as they have **high variance due to a small amount of data** during this time period. 
+
+Therefore, the first important dynamic we can observe is the spike in language feature importance in **August 2016**. This coincides with **allegations and media coverage regarding Russian interference in the election and Trump’s alleged connections to Russia**. In this spike, we can in particular observe that the language features of `liwc_friends` and `liwc_negemo` and `liwc_affect` spiked. This suggests that the non-pro-trump posts generally had a negative view of Trump, addressing the pro-trump community as a group negatively.
+
+The second important spike occurs in **November/December 2016**. This coincides with the U.S. presidential election (November 8, 2016) and its results.
 
 
 
