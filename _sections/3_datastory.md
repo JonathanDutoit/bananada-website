@@ -75,7 +75,7 @@ Which subreddits interact with pro-Trump communities? Do these communities inter
 </div>  
 
 
-The answer these questions, we can directly analyze which subreddits interact the most with Trump-related subreddits.
+The answer to these questions, we can directly analyze which subreddits interact the most with Trump-related subreddits.
 
 The visualization below shows only strong links, defined as those above the 90th percentile. This focuses on the communities with the highest interaction between Trump-related and non–Trump-related subreddits, helping to keep the graph readable and avoid clutter.
 <div class="clearfix vertical-center">
@@ -89,7 +89,7 @@ The visualization below shows only strong links, defined as those above the 90th
   <div class="col-3 sm-width-full">
       When hovering over a node (subreddit), the graph displays its interactions with others. For non–Trump-related subreddits, this corresponds to the number of interactions with Trump-related communities. Here, interactions refer to posts that create hyperlinks from one subreddit to another.
       <br/><br/>
-      The graph uses a spring lajyout while also preserving spatial relationships between subreddits based on the embedding.
+      The graph uses a spring layout while also preserving spatial relationships between subreddits based on the embedding.
   </div>
 </div>
 
