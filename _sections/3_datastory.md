@@ -374,7 +374,7 @@ While the topics brought up on these subreddits are pretty similar to the ones g
 </div>
 
 
-One notable exception is `r/trump_train` (outlier), isolated at the top of the graph. This separation may indicate that the subreddit focuses on more niche topics and/or exhibits a distinct discussion style compared to the other subreddits in the projection. Further, more targeted analysis would be required to determine whether r/trump_train represents a typical statistical outlier or an extreme case of topical or community isolation among smaller Reddit groups.
+Three notable exceptions are `r/trump_train`, `r/trumppa` and `r/hottiesfortrump`(outliers), isolated at the top-right of the graph. This separation may indicate that the subreddits focuse on more niche topics and/or exhibit a distinct discussion style compared to the other subreddits in the projection. Further, more targeted analysis would be required to determine whether these subreddits represent a typical statistical outlier or an extreme case of topical or community isolation among smaller Reddit groups.
 
 **Summary**:
 - Semantically (_LDA Chart_): These communities are linked to the mainstream. They talk about what everyone else is talking about.
