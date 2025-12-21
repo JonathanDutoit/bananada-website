@@ -259,7 +259,6 @@ What triggered the peaks of hostility?
 Which political events or media controversies act as catalysts?
 
 
-
 The interactions began on January 2016. This can be explained by his infamous quote: "I could shoot somebody and i wouldn't lose voters". This also marks the beginning of negative interactions involving Trump it being one way or the other (see previous graph). In March, it reached a steady level where it would stay there for the large part of our data story, excluding of course the major events. This was provoked by the start of his aggressive campaign. During the weekend of the 12th march 2016, we saw many protests happening and a Trump rally got cancelled because of protests in Chicago, Illinois. He refused to take responsibility for such a violent 48 hours and thus sparked fire to the relations between Blue and Red.
 Obviously the 2 largest peaks of interactions occured during November 2016 and February 2017. Those are the result of, respectively, the election month and "Not My Presidents Day", a series of rallies against the president, held on Washington's Birthday, February 20, 2017, after Trump took office.
 
@@ -272,8 +271,7 @@ Obviously the 2 largest peaks of interactions occured during November 2016 and F
 
   <div style="font-size: 14px; line-height: 1.6; padding-left: 10px; border-left: 3px solid #e0e0e0;">
     Do pro-Trump communities use the same hostile language as opposing communities?
-  </div><br><br>
-
+  </div>
 </div>
 
 ### How does pro-Trump posts differs from others?
@@ -281,14 +279,14 @@ Obviously the 2 largest peaks of interactions occured during November 2016 and F
 To answer this question, we perform a analysis of the language used in posts interacting with Trump written on pro-trump subreddits versus posts written on non-pro-trump subreddits. The graph below presents the temporal language analysis.
 
 <div class="clearfix">
- <img src="{{ site.baseurl }}/assets/images/temporal_language_analysis.png" alt="User Embedding Projection" style="width: 100%; height: auto;"/>
+ <img src="{{ site.baseurl }}/assets/images/temporal_language_analysis.png" alt="Temporal language analysis" style="width: 100%; height: auto;"/>
 </div>
 
 We first note that the left-most values in the plot must be interpreted with a grain of salt, as they have **high variance due to a small amount of data** during this time period. 
 
-Therefore, the first important dynamic we can observe is the spike in language feature importance in **August 2016**. This coincides with **allegations and media coverage regarding Russian interference in the election and Trump’s alleged connections to Russia**. In this spike, we can in particular observe that the language features of `liwc_friends` and `liwc_negemo` and `liwc_affect` spiked. This suggests that the non-pro-trump posts generally had a negative view of Trump, addressing the pro-trump community as a group negatively.
+Therefore, the first important dynamic we can observe is the spike in language feature importance in **August 2016**. This coincides with **allegations and media coverage regarding Russian interference in the election and Trump’s alleged connections to Russia**. In this spike, we can in particular note that the language features of `liwc_friends` and `liwc_negemo` and `liwc_affect` spiked. This suggests that **the non-pro-trump posts generally had a negative view of Trump**, addressing the pro-trump community as a group negatively.
 
-The second important spike occurs in **November/December 2016**. This coincides with the U.S. presidential election (November 8, 2016) and its results.
+The second important spike occurs in **November/December 2016**. This coincides with the **U.S. presidential election** (November 8, 2016) and its aftermath. We observe that all of the language features shown experience a visible jump. The features `liwc_bio` and `liwc_affect` jump up whereas the rest `liwc_negemo`, `liwc_posemo` go down. The most interesting features to interpret here are: `liwc_affect` going up and its sub-categories `liwc_posemo` and `liwc_negemo` going down. This seems counter-intuitive, but it suggests that people were using affective words that could not be categorized as positive or negative emotions. This can happen when **a community enters a state of "constant hype**", experessing their emotions with high energy, as the pro-trump community probably did. Another feature we can interpret is the spike in `liwc_bio`, which corresponds to the language of biological processes. In this scenario however, it likely reflected a **use of strength an vitality in the posts**, expressing the power of the Trump movement through biological terms (e.g., strength, blood, heart, life).
 
 <div style="font-family: Verdana, Geneva, sans-serif; color: black; max-width: 700px; margin-top: 20px;">
 
@@ -301,11 +299,6 @@ The second important spike occurs in **November/December 2016**. This coincides 
   </div>
 
 </div>
-
-### What Kind of Conflict Is This? Ideology, Identity, or Belonging?
-
-When communities attack, do they defend ideology, identity, or belonging?
-How do linguistic markers reveal emotional grammar?
 
 ### Did Cross-Community Conflict Affect Community Growth?
 
